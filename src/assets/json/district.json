@@ -1,0 +1,130 @@
+[
+    {
+      "id": 1,
+      "cid": 1,
+      "sid": 1,
+      "name": "Chennai",
+	  "order": 1,
+	  "status": "A"
+    },
+    {
+      "id": 2,
+      "cid": 1,
+      "sid": 1,
+      "name": "Madurai",
+	  "order": 2,
+	  "status": "A"
+    },
+    {
+      "id": 3,
+      "cid": 1,
+      "sid": 1,
+      "name": "Tenkasi",
+	  "order": 3,
+	  "status": "A"
+    },
+    {
+      "id": 4,
+      "cid": 1,
+      "sid": 1,
+      "name": "Tiruvallur",
+	  "order": 4,
+	  "status": "A"
+    },
+    {
+      "id": 5,
+      "cid": 1,
+      "sid": 1,
+      "name": "Virudhunagar",
+	  "order": 5,
+	  "status": "A"
+    },
+    {
+      "id": 6,
+      "cid": 1,
+      "sid": 1,
+      "name": "Ranipet",
+	  "order": 6,
+	  "status": "A"
+    },
+    {
+      "id": 7,
+      "cid": 1,
+      "sid": 1,
+      "name": "Tiruvannamalai",
+	  "order": 7,
+	  "status": "A"
+    },
+    {
+      "id": 8,
+      "cid": 1,
+      "sid": 1,
+      "name": "Kanchipuram",
+	  "order": 8,
+	  "status": "A"
+    },
+    {
+      "id": 9,
+      "cid": 1,
+      "sid": 1,
+      "name": "Coimbatore",
+	  "order": 9,
+	  "status": "A"
+    },
+    {
+      "id": 10,
+      "cid": 1,
+      "sid": 1,
+      "name": "Salem",
+	  "order": 10,
+	  "status": "I"
+    },
+    {
+      "id": 11,
+      "cid": 1,
+      "sid": 2,
+      "name": "Andhra Pradesh",
+	  "order": 1,
+	  "status": "A"
+    },
+    {
+      "id": 12,
+      "cid": 1,
+      "sid": 3,
+      "name": "Gujarat",
+	  "order": 1,
+	  "status": "A"
+    },
+    {
+      "id": 13,
+      "cid": 1,
+      "sid": 4,
+      "name": "Uttar Pradesh",
+	  "order": 1,
+	  "status": "A"
+    },
+    {
+      "id": 14,
+      "cid": 1,
+      "sid": 5,
+      "name": "Karnataka",
+	  "order": 1,
+	  "status": "A"
+    },
+    {
+      "id": 15,
+      "cid": 1,
+      "sid": 6,
+      "name": "Odisha",
+	  "order": 1,
+	  "status": "A"
+    },
+    {
+      "id": 16,
+      "cid": 1,
+      "sid": 7,
+      "name": "Maharashtra",
+	  "order": 1,
+	  "status": "A"
+    }
+  ]
