@@ -62,7 +62,7 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  basename: "" // 👈 Add this line right here
+  basename: "/" // 👈 Add this line right here
 })
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

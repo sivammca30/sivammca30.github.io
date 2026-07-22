@@ -7,6 +7,23 @@ using vite build tool
 
  npm run dev -- in command prompt not in powershell - vscode
 
+### Github Host React App using Github actions
+
+## create yml or yaml file
+
+.github\workflows\deploy.yml
+
+## change Repository Settings in github 
+
+Open Repository -> Settings -> Pages
+
+Change Source to GitHub Actions from Deploy from a branch
+
+## see the github actions
+
+when push code to main branch, see Actions 
+
+you will see, Deploy React App
 
 
 ### Github Host React App
