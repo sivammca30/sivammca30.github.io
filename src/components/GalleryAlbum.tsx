@@ -1,5 +1,5 @@
 import { useState } from "react";
-import galleryAlbum from "../assets/json/galleryAlbum.json";
+import galleryAlbum from "../assets/json/galleryalbum.json";
 import AlbumViewer from "./AlbumViewer";
 
 export default function GalleryAlbum() {
