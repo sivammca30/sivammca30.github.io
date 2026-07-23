@@ -15,7 +15,7 @@ const App = () => {
   const getInitialTheme = (): Theme => {
     const stored = localStorage.getItem("wtsf-theme") as Theme | null;
     if (stored === "dark" || stored === "light") return stored;
-    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    return "dark";
   };
 
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
