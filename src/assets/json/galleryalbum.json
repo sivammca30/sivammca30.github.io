@@ -57,7 +57,7 @@
     "date": "21 June 2026",
     "category": "Events",
     "status": "A",
-    "order": 1,
+    "order": 5,
     "photos": [
       {
         "id": 1,
@@ -344,6 +344,98 @@
       {
         "id": 15,
         "src": "images/gallery/section-5/15.JPG"
+      }
+
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Tenkasi District Competition - 2026",
+    "cover": "images/gallery/section-6/17.JPG",
+    "date": "26 July 2026",
+    "category": "Competition",
+    "status": "A",
+    "order": 1,
+    "photos": [
+      {
+        "id": 1,
+        "src": "images/gallery/section-6/1.JPG"
+      },
+      {
+        "id": 2,
+        "src": "images/gallery/section-6/2.JPG"
+      },
+      {
+        "id": 3,
+        "src": "images/gallery/section-6/3.JPG"
+      },
+      {
+        "id": 4,
+        "src": "images/gallery/section-6/4.JPG"
+      },
+      {
+        "id": 5,
+        "src": "images/gallery/section-6/5.JPG"
+      },
+      {
+        "id": 6,
+        "src": "images/gallery/section-6/6.JPG"
+      },
+      {
+        "id": 7,
+        "src": "images/gallery/section-6/7.JPG"
+      },
+      {
+        "id": 8,
+        "src": "images/gallery/section-6/8.JPG"
+      },
+      {
+        "id": 9,
+        "src": "images/gallery/section-6/9.JPG"
+      },
+      {
+        "id": 10,
+        "src": "images/gallery/section-6/10.JPG"
+      },
+      {
+        "id": 11,
+        "src": "images/gallery/section-6/11.JPG"
+      },
+      {
+        "id": 12,
+        "src": "images/gallery/section-6/12.JPG"
+      },
+      {
+        "id": 13,
+        "src": "images/gallery/section-6/13.JPG"
+      },
+      {
+        "id": 14,
+        "src": "images/gallery/section-6/14.JPG"
+      },
+      {
+        "id": 15,
+        "src": "images/gallery/section-6/15.JPG"
+      },
+      {
+        "id": 16,
+        "src": "images/gallery/section-6/16.JPG"
+      },
+      {
+        "id": 17,
+        "src": "images/gallery/section-6/17.JPG"
+      },
+      {
+        "id": 18,
+        "src": "images/gallery/section-6/18.JPG"
+      },
+      {
+        "id": 19,
+        "src": "images/gallery/section-6/19.JPG"
+      },
+      {
+        "id": 20,
+        "src": "images/gallery/section-6/20.JPG"
       }
 
     ]
