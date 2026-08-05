@@ -1,10 +1,19 @@
-import type { FC } from "react";
+import { useState, type FC } from "react";
 //import { UPCOMINGEVENTS } from "../data";
 // import { MOMENTS } from "../data";
 // import type { EventItem } from "../data";
 import UPCOMINGEVENTS from '../assets/json/upcomingevents.json';
-import recentphotos from '../assets/json/recenteventphoto.json';
-import Masonry from './Masonry';
+import recentphotos from '../assets/json/recentphotos.json';
+//import Masonry from './Masonry';
+import Lightbox from "yet-another-react-lightbox";
+
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Counter from "yet-another-react-lightbox/plugins/counter";
+
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+import "yet-another-react-lightbox/plugins/counter.css";
 
 const upcoming = [...UPCOMINGEVENTS]
   .filter(off => off.status === 'A')
@@ -14,12 +23,14 @@ const recentimg = [...recentphotos]
   .filter(off => off.status === 'A')
   .sort((a, b) => a.order - b.order);
 
-  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+  //const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
 
 
-const Events: FC = () => (
-  <>
-  
+const Events: FC = () => {
+      const [open1, setOpen1] = useState(false);
+    const [index1, setIndex1] = useState(0);
+  return (
+    <>
     <section className="page-header">
       <div className="page-header-content">
         {/* <p className="tagline">Calendar</p> */}
@@ -81,16 +92,16 @@ const Events: FC = () => (
 
        
 
-        <div className="masonry-wrapper">
+        {/* <div className="masonry-wrapper">
           {isMobile ? (
-            /* Fallback clean mobile layout avoids absolute JS computation bugs */
+            
             <div className="mobile-gallery-grid">
               {recentimg.map((item, idx) => (
                 <img key={idx} src={item.img} alt="WTSF Event" />
               ))}
             </div>
           ) : (
-            /* Keep the animated desktop masonry layout */
+            
             <Masonry
               items={recentimg}
               ease="power3.out"
@@ -103,7 +114,44 @@ const Events: FC = () => (
               colorShiftOnHover={false}
             />
           )}
-        </div>
+        </div> */}
+
+        <div className="container">
+
+                    <div className="gallery">
+
+                        {recentimg.map((slide, i) => (
+
+                            <img
+                                key={i}
+                                src={slide.src}
+                                alt=""
+                                className="gallery-image"
+                                onClick={() => {
+                                    setIndex1(i);
+                                    setOpen1(true);
+                                }}
+                            />
+
+                        ))}
+
+                    </div>
+
+                    <Lightbox
+                        open={open1}
+                        close={() => setOpen1(false)}
+                        index={index1}
+                        slides={recentimg}
+                        plugins={[
+                            Zoom,
+                            Fullscreen,
+                            Counter,
+                            Thumbnails
+                        ]}
+                    />
+                    
+
+                </div>
 
 
 
@@ -142,7 +190,11 @@ const Events: FC = () => (
        
       </div>
     </section> */}
-  </>
-);
+    </>
+  );
+  
+    
+    };
+
 
 export default Events;
