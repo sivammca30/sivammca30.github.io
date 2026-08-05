@@ -14,12 +14,20 @@
         "img": "images/events/silambam_grading.jpeg", 
         "date": "2026-08-02", 
         "order": 2,
-        "status": "A"
+        "status": "I"
     },
     { 
         "id": 3, 
-        "title": "Silambam League Championship",
+        "title": "3rd Silambam League Championship - 2026",
         "img": "images/events/league_match.jpeg", 
+        "date": "2026-08-23", 
+        "order": 3,
+        "status": "A"
+    },
+    { 
+        "id": 4, 
+        "title": "3rd Silambam League Championship - 2026",
+        "img": "images/events/league_match1.jpeg", 
         "date": "2026-08-23", 
         "order": 3,
         "status": "A"

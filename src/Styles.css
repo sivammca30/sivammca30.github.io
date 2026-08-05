@@ -3785,4 +3785,59 @@ main.sphere-main {
   padding: 40px 20px;
   box-sizing: border-box;
 }
+/* Associated CSS for the mobile gallery fallback */
+.mobile-gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.mobile-gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
+.masonry-wrapper {
+  display: block !important;
+  position: relative;
+  width: 100% !important;
+  max-width: 1200px;
+  margin: 3rem auto 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  clear: both;
+  
+  /* Critical structural fixes */
+  min-height: 300px;      /* Holds layout structure during loading states */
+  overflow: visible;      /* Allows hover scales (0.95) to visually show cleanly */
+}
+
+/* Ensure absolute-positioned columns respect mobile device bounds */
+.masonry-wrapper > div,
+.masonry-wrapper div[style*="position: absolute"] {
+  max-width: 100% !important;
+  box-sizing: border-box;
+  will-change: transform; /* Smooths out JS stagger transitions on mobile */
+}
+
+/* Enforce fluid sizing for all loaded grid image nodes */
+.masonry-wrapper img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  object-fit: cover;      /* Keeps the image aspect ratios from distorting */
+  border-radius: 8px;     /* Matches standard modern card interfaces */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .masonry-wrapper {
+    margin: 1.5rem auto 0;
+    padding: 0 5px;
+    overflow-x: hidden;   /* Hard defense against mobile layout blowouts */
+  }
+}

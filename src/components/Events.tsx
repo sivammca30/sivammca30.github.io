@@ -14,9 +14,12 @@ const recentimg = [...recentphotos]
   .filter(off => off.status === 'A')
   .sort((a, b) => a.order - b.order);
 
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+
 
 const Events: FC = () => (
   <>
+  
     <section className="page-header">
       <div className="page-header-content">
         {/* <p className="tagline">Calendar</p> */}
@@ -76,17 +79,31 @@ const Events: FC = () => (
 
         {/* Masonry image layout wrapper */}
 
-        <Masonry
-          items={recentimg}
-          ease="power3.out"
-          duration={0.6}
-          stagger={0.05}
-          animateFrom="bottom"
-          scaleOnHover
-          hoverScale={0.95}
-          blurToFocus
-          colorShiftOnHover={false}
-        />
+       
+
+        <div className="masonry-wrapper">
+          {isMobile ? (
+            /* Fallback clean mobile layout avoids absolute JS computation bugs */
+            <div className="mobile-gallery-grid">
+              {recentimg.map((item, idx) => (
+                <img key={idx} src={item.img} alt="WTSF Event" />
+              ))}
+            </div>
+          ) : (
+            /* Keep the animated desktop masonry layout */
+            <Masonry
+              items={recentimg}
+              ease="power3.out"
+              duration={0.6}
+              stagger={0.05}
+              animateFrom="bottom"
+              scaleOnHover
+              hoverScale={0.95}
+              blurToFocus
+              colorShiftOnHover={false}
+            />
+          )}
+        </div>
 
 
 

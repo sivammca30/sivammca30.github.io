@@ -143,8 +143,8 @@
   },
   {
     "id": 3,
-    "title": "Grading",
-    "cover": "images/gallery/section-3/2.jpg",
+    "title": "Silambam Grading - Aug 02 2026",
+    "cover": "images/gallery/section-3/P (1).jpg",
     "date": "21 June 2026",
     "category": "Events",
     "status": "A",
@@ -152,63 +152,99 @@
     "photos": [
       {
         "id": 1,
-        "src": "images/gallery/section-3/1.jpg"
+        "src": "images/gallery/section-3/P (1).jpg"
       },
       {
         "id": 2,
-        "src": "images/gallery/section-3/2.jpg"
+        "src": "images/gallery/section-3/P (2).jpg"
       },
       {
         "id": 3,
-        "src": "images/gallery/section-3/3.jpg"
+        "src": "images/gallery/section-3/P (3).jpg"
       },
       {
         "id": 4,
-        "src": "images/gallery/section-3/4.jpg"
+        "src": "images/gallery/section-3/P (4).jpg"
       },
       {
         "id": 5,
-        "src": "images/gallery/section-3/5.jpg"
+        "src": "images/gallery/section-3/P (5).jpg"
       },
       {
         "id": 6,
-        "src": "images/gallery/section-3/6.jpg"
+        "src": "images/gallery/section-3/P (6).jpg"
       },
       {
         "id": 7,
-        "src": "images/gallery/section-3/7.jpg"
+        "src": "images/gallery/section-3/P (7).jpg"
       },
       {
         "id": 8,
-        "src": "images/gallery/section-3/8.jpg"
+        "src": "images/gallery/section-3/P (8).jpg"
       },
       {
         "id": 9,
-        "src": "images/gallery/section-3/9.jpg"
+        "src": "images/gallery/section-3/P (9).jpg"
       },
       {
         "id": 10,
-        "src": "images/gallery/section-3/10.jpg"
+        "src": "images/gallery/section-3/P (10).jpg"
       },
       {
         "id": 11,
-        "src": "images/gallery/section-3/11.jpg"
+        "src": "images/gallery/section-3/P (11).jpg"
       },
       {
         "id": 12,
-        "src": "images/gallery/section-3/12.jpg"
+        "src": "images/gallery/section-3/P (12).jpg"
       },
       {
         "id": 13,
-        "src": "images/gallery/section-3/13.jpg"
+        "src": "images/gallery/section-3/P (13).jpg"
       },
       {
         "id": 14,
-        "src": "images/gallery/section-3/14.jpg"
+        "src": "images/gallery/section-3/P (14).jpg"
       },
       {
         "id": 15,
-        "src": "images/gallery/section-3/15.jpg"
+        "src": "images/gallery/section-3/P (15).jpg"
+      },
+      {
+        "id": 16,
+        "src": "images/gallery/section-3/P (16).jpg"
+      },
+      {
+        "id": 17,
+        "src": "images/gallery/section-3/P (17).jpg"
+      },
+      {
+        "id": 18,
+        "src": "images/gallery/section-3/P (18).jpg"
+      },
+      {
+        "id": 19,
+        "src": "images/gallery/section-3/P (19).jpg"
+      },
+      {
+        "id": 20,
+        "src": "images/gallery/section-3/P (20).jpg"
+      },
+      {
+        "id": 21,
+        "src": "images/gallery/section-3/P (21).jpg"
+      },
+      {
+        "id": 22,
+        "src": "images/gallery/section-3/P (22).jpg"
+      },
+      {
+        "id": 23,
+        "src": "images/gallery/section-3/P (23).jpg"
+      },
+      {
+        "id": 24,
+        "src": "images/gallery/section-3/P (24).jpg"
       }
     ]
   },
