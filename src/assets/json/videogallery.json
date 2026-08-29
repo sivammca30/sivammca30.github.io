@@ -5,7 +5,7 @@
     "date": "21 June 2026",
     "category": "Celebration",
     "status": "A",
-    "order": 1,
+    "order": 2,
     "src": "https://www.youtube.com/embed/DPAIatxHXvk?si=_SHo9diN5HZKsDDd"
   },
   {
@@ -14,18 +14,18 @@
     "date": "21 June 2026",
     "category": "Events",
     "status": "A",
-    "order": 2,
+    "order": 3,
     "src": "https://www.youtube.com/embed/YdTSNfvNG_o?si=T2CThTgW7hQpgStI"
     
   },
   {
     "id": 3,
-    "title": "Grading",
-    "date": "21 June 2026",
+    "title": "League Silambam Competition",
+    "date": "23 August 2026",
     "category": "Events",
-    "status": "I",
-    "order": 3,
-    "src": "https://www.youtube.com/embed/EI6IiHcjl5E?si=dzBc7AXY5nnF7SnF"
+    "status": "A",
+    "order": 1,
+    "src": "https://www.youtube.com/embed/ygqxaHm33d8?si=ULs1Z1bVK-W7aWX4"
      
   },
   {
