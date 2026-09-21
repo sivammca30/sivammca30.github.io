@@ -22,14 +22,22 @@
         "img": "images/events/league_match.jpeg", 
         "date": "2026-08-23", 
         "order": 3,
-        "status": "A"
+        "status": "I"
     },
     { 
         "id": 4, 
         "title": "3rd Silambam League Championship - 2026",
         "img": "images/events/league_match1.jpeg", 
         "date": "2026-08-23", 
-        "order": 3,
+        "order": 4,
+        "status": "I"
+    },
+    { 
+        "id": 5, 
+        "title": "8th State Level Silambattam Open Championship - 2026",
+        "img": "images/events/madurai_state.jpeg", 
+        "date": "2026-11-29", 
+        "order": 5,
         "status": "A"
     }
 ]
